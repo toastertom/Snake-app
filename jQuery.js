@@ -104,7 +104,7 @@ $(document).ready(function () {
     for (var i = 0; i < snakeArray.length; i++) {
 
       var color = snakeArray[i];
-      ctx.fillStyle = "#F4743C";
+      ctx.fillStyle = "#00FF01";
       ctx.fillRect(color.x*cw, color.y*cw, cw, cw);
       ctx.strokeStyle = "white";
       ctx.strokeRect(color.x*cw, color.y*cw, cw, cw);
@@ -119,7 +119,7 @@ $(document).ready(function () {
   //generic function to draw cells
   function styleCells(x,y) {
 
-    ctx.fillStyle = "blue";
+    ctx.fillStyle = "red";
     ctx.fillRect(x*cw, y*cw, cw, cw);
     ctx.strokeStyle = "white";
     ctx.strokeRect(x*cw, y*cw, cw, cw);

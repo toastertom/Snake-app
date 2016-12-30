@@ -1,0 +1,24 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-family: Righteous;
+  background-image: url("images/retrobackground.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0px;
+}
+
+canvas {
+  box-shadow:  7px 7px 5px #15001F;
+}
