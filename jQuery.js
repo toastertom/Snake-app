@@ -22,7 +22,7 @@ $(document).ready(function () {
       score = 0;
 
       //Lets move the snake now using a timer which will trigger the paint function
-  //every 60ms
+  //every 200ms
       if(typeof gameLoop != "undefined") clearInterval(gameLoop);
   gameLoop = setInterval(snakeStyle, 200);
   }
