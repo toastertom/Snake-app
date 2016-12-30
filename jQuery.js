@@ -24,7 +24,7 @@ $(document).ready(function () {
       //Lets move the snake now using a timer which will trigger the paint function
   //every 200ms
       if(typeof gameLoop != "undefined") clearInterval(gameLoop);
-  gameLoop = setInterval(snakeStyle, 200);
+  gameLoop = setInterval(snakeStyle, 100);
   }
 
   init();
